@@ -2,6 +2,7 @@
 - JavaScript基础
 - React
 - Vue
+  -[vue的Data里面为什么是函数](Vue/vue的Data里面为什么是函数.md)
 - CSS
 - HTTP
 - 浏览器
