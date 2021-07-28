@@ -2,8 +2,9 @@
 - JavaScript基础
 - React
 - Vue
-  -[vue的Data里面为什么是函数](Vue/vue的Data里面为什么是函数.md)
+  - [vue的Data里面为什么是函数](Vue/vue的Data里面为什么是函数.md)
 - CSS
+  - [可继承的属性](CSS/可继承的属性.md)
 - HTTP
 - 浏览器
 - 工程化
