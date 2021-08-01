@@ -1,5 +1,6 @@
 - HTML
-- JavaScript基础
+- JavaScript
+  - [查找字符串中出现最多的字符和个数](JavaScript/查找字符串中出现最多的字符和个数.md)
 - React
 - Vue
   - [vue的Data里面为什么是函数](Vue/vue的Data里面为什么是函数.md)
