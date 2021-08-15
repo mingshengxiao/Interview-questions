@@ -4,6 +4,8 @@
   - [查找字符串中出现最多的字符和个数](JavaScript/查找字符串中出现最多的字符和个数.md)
   - [严格相等和非严格相等](JavaScript/严格相等和非严格相等.md)
   - [程序阅读题](JavaScript/程序阅读题.md)
+  - [JavaScript中有哪些异步编程](JavaScript/JavaScript中有哪些异步编程.md)
+  - [async跟defer的区别](JavaScript/async跟defer的区别.md)
 - React
   - [React生命周期](React/React生命周期.md)
 - Vue
