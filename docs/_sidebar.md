@@ -8,6 +8,7 @@
   - [async跟defer的区别](JavaScript/async跟defer的区别.md)
   - [setTimeout模拟setInterval](JavaScript/setTimeout模拟setInterval.md)
   - [前端错误监控](JavaScript/错误监控.md)
+  - [实现无限递加函数](JavaScript/实现一个无限add函数.md)
 - React
   - [React生命周期](React/React生命周期.md)
 - Vue
