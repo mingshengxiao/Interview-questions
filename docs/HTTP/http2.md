@@ -1,0 +1,13 @@
+- websocket协议和http2有关系么
+
+按照OSI网络分层模型，IP是网络层协议，TCP是传输层协议，而HTTP是应用层的协议。在这三者之间，SPDY和WebSocket都是与HTTP相关的协议，而TCP是HTTP底层的协议。
+
+WebSocket则提供使用一个TCP连接进行双向通讯的机制，包括网络协议和API，以取代网页和服务器采用HTTP轮询进行双向通讯的机制。
+
+本质上来说，WebSocket是不限于HTTP协议的，但是由于现存大量的HTTP基础设施，代理，过滤，身份认证等等，WebSocket借用HTTP和HTTPS的端口。
+
+由于使用HTTP的端口，因此TCP连接建立后的握手消息是基于HTTP的，由服务器判断这是一个HTTP协议，还是WebSocket协议。 WebSocket连接除了建立和关闭时的握手，数据传输和HTTP没丁点关系了。
+
+WebSocket也有自己一套帧协议。
+
+http2不会取代websocket，因为它们二者解决的是不同的问题
