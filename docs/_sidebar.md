@@ -19,6 +19,7 @@
   - [判断一个元素是否为与可视窗口内](CSS/判断一个元素是否为与可视窗口内.md)
 - HTTP
   - [websocket协议和http2有关系么](HTTP/http2.md)
+  - [http2和keep-alive的区别](HTTP/http2和keep-alive的区别.md)
 - 浏览器
 - 工程化
   - [工程化相关问题](工程化/webpack.md)
