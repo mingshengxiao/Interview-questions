@@ -13,6 +13,7 @@
   - [React生命周期](React/React生命周期.md)
 - Vue
   - [vue的Data里面为什么是函数](Vue/vue的Data里面为什么是函数.md)
+  - [vue组件的通讯方式](Vue/通讯方式.md)
 - CSS
   - [可继承的属性](CSS/可继承的属性.md)
   - [两列布局](CSS/两列布局的实现.md)
