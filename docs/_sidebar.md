@@ -22,6 +22,7 @@
   - [websocket协议和http2有关系么](HTTP/http2.md)
   - [http2和keep-alive的区别](HTTP/http2和keep-alive的区别.md)
 - 浏览器
+  - [性能优化的方法](浏览器/性能优化.md)
 - 工程化
   - [工程化相关问题](工程化/webpack.md)
   - [事件循环](工程化/事件循环.md)
