@@ -24,4 +24,4 @@ f2: fn.subscribe('done', f2);
 ```js
 new Promise.resolve().then(f2)
 ```
-Promises对象是CommonJS工作组提出的一种规范，目的是为异步编程提供统一接口；思想是， 每一个异步任务返回一个Promise对象，该对象有一个then方法，允许指定回调函数。
+Promises对象是CommonJS工作组提出的一种规范，目的是为异步编程提供统一接口；思想是，每一个异步任务返回一个Promise对象，该对象有一个then方法，允许指定回调函数。

@@ -8,3 +8,12 @@ setInterval的缺点:
 2. 可能多个定时器会连续执行
 
 每个setTimeout产生的任务会直接push到任务队列中，而setInterval会在每次把任务push到任务队列前，都要进行一下判断(看上次的任务是否仍在队列中，如果有则不添加，没有则添加).
+
+```js
+let n = customSetTimeout(func, interval) {
+  setTimeout(function() {
+    func();
+    n(func, interval);
+  }, interval);
+}
+```
