@@ -18,6 +18,7 @@
   - [可继承的属性](CSS/可继承的属性.md)
   - [两列布局](CSS/两列布局的实现.md)
   - [判断一个元素是否为与可视窗口内](CSS/判断一个元素是否为与可视窗口内.md)
+  - [文本超出截断的方法](CSS/文本截断的方法.md)
 - HTTP
   - [websocket协议和http2有关系么](HTTP/http2.md)
   - [http2和keep-alive的区别](HTTP/http2和keep-alive的区别.md)
