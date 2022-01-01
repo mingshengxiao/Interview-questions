@@ -32,4 +32,17 @@ Add(1,2,...)(3)(4).sumOf() // ...
 
     return AddPro;
   }
+
+  // 写法二
+  function sum(...args) {
+    const f = (...rest) => {
+      return sum(...[...args, ...rest]);
+    }
+
+    f.sumOf = () => {
+      return args.reduce((x,y) =>  x + y, 0);
+    }
+
+    return f;
+  }
 ```
