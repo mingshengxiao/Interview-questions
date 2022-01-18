@@ -19,6 +19,8 @@
   - [两列布局](CSS/两列布局的实现.md)
   - [判断一个元素是否为与可视窗口内](CSS/判断一个元素是否为与可视窗口内.md)
   - [文本超出截断的方法](CSS/文本截断的方法.md)
+- HTML
+  - [input 的属性](html/input有哪些type.md)
 - HTTP
   - [websocket 协议和 http2 有关系么](HTTP/http2.md)
   - [http2 和 keep-alive 的区别](HTTP/http2和keep-alive的区别.md)
