@@ -1,6 +1,7 @@
 - HTML
 - JavaScript
   - [JS 数据类型](JavaScript/JS数据类型.md)
+  - [如何获取对象类型](JavaScript/如何获取对象类型.md)
   - [查找字符串中出现最多的字符和个数](JavaScript/查找字符串中出现最多的字符和个数.md)
   - [严格相等和非严格相等](JavaScript/严格相等和非严格相等.md)
   - [程序阅读题](JavaScript/程序阅读题.md)
