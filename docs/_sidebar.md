@@ -10,6 +10,7 @@
   - [setTimeout 模拟 setInterval](JavaScript/setTimeout模拟setInterval.md)
   - [前端错误监控](JavaScript/错误监控.md)
   - [实现无限递加函数](JavaScript/实现一个无限add函数.md)
+  - [获取一个月有多少天](JavaScript/获取一个月有多少天.md)
 - React
   - [React 生命周期](React/React生命周期.md)
 - Vue
