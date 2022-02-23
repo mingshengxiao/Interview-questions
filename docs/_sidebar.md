@@ -23,6 +23,7 @@
   - [文本超出截断的方法](CSS/文本截断的方法.md)
   - [实现三角形](CSS/实现三角形的方法.md)
   - [什么是 BFC](CSS/BFC.md)
+  - [选择器优先级](CSS/CSS选择器.md)
 - HTML
   - [input 的属性](html/input有哪些type.md)
 - HTTP
