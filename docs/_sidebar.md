@@ -12,6 +12,7 @@
   - [实现无限递加函数](JavaScript/实现一个无限add函数.md)
   - [获取一个月有多少天](JavaScript/获取一个月有多少天.md)
   - [isNaN 和 Number.isNaN 的区别](JavaScript/isNaN和Number.isNaN的区别.md)
+  - [箭头函数和普通函数的区别](JavaScript/箭头函数和普通函数的区别.md)
 - React
   - [React 生命周期](React/React生命周期.md)
 - Vue
