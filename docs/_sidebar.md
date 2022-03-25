@@ -14,6 +14,7 @@
   - [isNaN 和 Number.isNaN 的区别](JavaScript/isNaN和Number.isNaN的区别.md)
   - [箭头函数和普通函数的区别](JavaScript/箭头函数和普通函数的区别.md)
   - [到字符串的转换规则](JavaScript/其他值到字符串的转换规则.md)
+  - [正确判断 this 指向](JavaScript/如何正确判断this指向.md)
 - React
   - [React 生命周期](React/React生命周期.md)
 - Vue
