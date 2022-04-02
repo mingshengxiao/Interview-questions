@@ -15,6 +15,7 @@
   - [箭头函数和普通函数的区别](JavaScript/箭头函数和普通函数的区别.md)
   - [到字符串的转换规则](JavaScript/其他值到字符串的转换规则.md)
   - [正确判断 this 指向](JavaScript/如何正确判断this指向.md)
+  - [历史 ES 版本新增特性](JavaScript/ES6往后每个ES版本的新功能.md)
 - React
   - [React 生命周期](React/React生命周期.md)
 - Vue
