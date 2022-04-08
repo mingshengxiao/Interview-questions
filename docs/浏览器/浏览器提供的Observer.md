@@ -1,4 +1,4 @@
-### MutationObserver
+### IntersectionObserver
 
 IntersectionObserver 可以监听一个元素和可视区域相交部分的比例，然后在可视比例达到某个阈值的时候触发回调。
 
@@ -21,7 +21,7 @@ intersectionObserver.observe(document.querySelector("#box2"));
 
 做一些数据采集的时候，希望知道某个元素是否是可见的，什么时候可见的，就可以用这个 api 来监听，还有做图片的懒加载的时候，可以当可视比例达到某个比例再触发加载。
 
-### IntersectionObserver
+### MutationObserver
 
 MutationObserver 可以监听对元素的属性的修改、对它的子节点的增删改。
 
