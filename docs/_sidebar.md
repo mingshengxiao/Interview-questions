@@ -19,6 +19,7 @@
   - [JS 内置对象](JavaScript/JS内置对象.md)
   - [判断一个元素是否在可视区域中](JavaScript/判断一个元素是否在可视区域中.md)
   - [闭包](JavaScript/什么是闭包.md)
+  - [null 和 undefined 的区别](JavaScript/null和undefined的区别.md)
 - React
   - [React 生命周期](React/React生命周期.md)
 - Vue
