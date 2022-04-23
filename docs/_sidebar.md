@@ -28,6 +28,7 @@
   - [vue 的 Data 里面为什么是函数](Vue/vue的Data里面为什么是函数.md)
   - [vue 组件的通讯方式](Vue/通讯方式.md)
   - [虚拟 DOM 中 key 值的作用](Vue/虚拟DOM中key值的作用.md)
+  - [路由组件传参的方式](Vue/路由组件传参的方式.md)
 - CSS
   - [可继承的属性](CSS/可继承的属性.md)
   - [两列布局](CSS/两列布局的实现.md)
