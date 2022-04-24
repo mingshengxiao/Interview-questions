@@ -37,6 +37,7 @@
   - [实现三角形](CSS/实现三角形的方法.md)
   - [什么是 BFC](CSS/BFC.md)
   - [选择器优先级](CSS/CSS选择器.md)
+  - [元素的水平居中](CSS/实现元素的水平垂直居中.md)
 - HTML
   - [input 的属性](html/input有哪些type.md)
 - HTTP
