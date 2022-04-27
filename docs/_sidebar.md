@@ -24,6 +24,7 @@
   - [js 判断数组的几种方式](JavaScript/js判断数组的几种方式.md)
 - React
   - [React 生命周期](React/React生命周期.md)
+  - [React 的优化技巧](React/React的优化技巧.md)
 - Vue
   - [vue 的 Data 里面为什么是函数](Vue/vue的Data里面为什么是函数.md)
   - [vue 组件的通讯方式](Vue/通讯方式.md)
