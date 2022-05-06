@@ -64,6 +64,7 @@
 - 工程化
   - [工程化相关问题](工程化/webpack.md)
   - [事件循环](工程化/事件循环.md)
+  - [webpack 文件 hash 值](工程化/webpack文件hash值.md)
 - Node
   - [错误监控](Node/错误监控.md)
 - 手写题
