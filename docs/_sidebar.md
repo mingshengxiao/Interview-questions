@@ -24,6 +24,7 @@
   - [js 判断数组的几种方式](JavaScript/js判断数组的几种方式.md)
 - TypeScript
   - [type 和 interface 的区别](TypeScript/type和interface的区别.md)
+  - [工具类型收藏集](TypeScript/工具类型收藏.md)
 - React
   - [React 生命周期](React/React生命周期.md)
   - [React 的优化技巧](React/React的优化技巧.md)
