@@ -1,14 +1,25 @@
-##### 实现一个 JSON.stringify
+### 实现一个 JSON.stringify
+
+<b>JSON.stringify()</b> 方法将一个 JavaScript 对象或值转换为 JSON 字符串，如果指定了一个 replacer 函数，则可以选择性地替换值，或者指定的 replacer 是数组，则可选择性地仅包含数组指定的属性。
 
 JSON.stringify(value[,replacer[,space]])：
 
-Boolean|Number|String 类型会自动转换成对应的原始值。
-undefined、任意函数以及 symbol，会被忽略（出现在非数组对象的属性值中时），或者被转换成 null（出现在数组中时）。
-不可枚举的属性会被忽略
-如果一个对象的属性值通过某种间接的方式指回该对象本身，即循环引用，属性也会被忽略。
-属性值 Infinity,-Infinity,undefined,NaN 经过 stringify 转换后会变成 null
+replacer: 如果该参数是一个函数，则在序列化过程中，被序列化的值的每个属性都会经过该函数的转换和处理；如果该参数是一个数组，则只有包含在这个数组中的属性名才会被序列化到最终的 JSON 字符串中；如果该参数为 null 或者未提供，则对象所有的属性都会被序列化。
 
-##### 代码实现
+space: 指定缩进用的空白字符串，用于美化输出（pretty-print）；如果参数是个数字，它代表有多少的空格；上限为 10。该值若小于 1，则意味着没有空格；如果该参数为字符串（当字符串长度超过 10 个字母，取其前 10 个字母），该字符串将被作为空格；如果该参数没有提供（或者为 null），将没有空格。
+
+- 当尝试去转换 BigInt 类型的值会抛出 TypeError ("BigInt value can't be serialized in JSON")（BigInt 值不能 JSON 序列化）.
+- 对包含循环引用的对象（对象之间相互引用，形成无限循环）执行此方法，会抛出错误。
+
+- Boolean|Number|String 类型会自动转换成对应的原始值。
+- undefined、任意函数以及 symbol，会被忽略（出现在非数组对象的属性值中时），或者被转换成 null（出现在数组中时）。
+- 非数组对象的属性不能保证以特定的顺序出现在序列化后的字符串中。
+- 不可枚举的属性会被忽略
+- 属性值 Infinity,-Infinity,undefined,NaN 经过 stringify 转换后会变成 null
+- 所有以 symbol 为属性键的属性都会被完全忽略掉，即便 replacer 参数中强制指定包含了它们。
+- 其他类型的对象，包括 Map/Set/WeakMap/WeakSet，仅会序列化可枚举的属性。
+
+### 代码实现
 
 <p>递归实现</p>
 
@@ -16,7 +27,10 @@ undefined、任意函数以及 symbol，会被忽略（出现在非数组对象�
 function jsonStringify(obj) {
   let type = typeof obj;
   if (type !== "object" || type === null) {
-    if (/string|undefined|function/.test(type)) {
+    if (/function|undefined|symbol/.test(type)) {
+      return undefined;
+    }
+    if (/string/.test(type)) {
       obj = '"' + obj + '"';
     }
     return String(obj);
@@ -28,12 +42,16 @@ function jsonStringify(obj) {
   for (let k in obj) {
     let v = obj[k];
     let type = typeof v;
-    if (/string|undefined|function/.test(type)) {
+    // undefined、任意函数以及 symbol，会被忽略（出现在非数组对象的属性值中时）
+    // 当在数组对象中时，应该返回null
+    if (/function|undefined|symbol/.test(type)) {
+      continue;
+    } else if (/string/.test(type)) {
       v = '"' + v + '"';
     } else if (type === "object") {
       v = jsonStringify(v);
     }
-    json.push((isArray ? "" : '"' + k + '"') + String(v));
+    json.push((isArray ? "" : '"' + k + '":') + String(v));
   }
 
   return (isArray ? "[" : "{") + String(json) + (isArray ? "]" : "}");
