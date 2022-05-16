@@ -11,7 +11,7 @@ node 环境：无论是否在严格模式下，在全局执行环境中（在任
 - 是否是 new 绑定
 
 1. 如果是 new 绑定，并且构造函数中没有返回 function 或者是 object，那么 this 指向这个新对象。
-2. 构造函数返回值是 function 或 object， new Super()是返回的是 Super 种返回的对象。
+2. 构造函数返回值是 function 或 object， new Super()时返回的是 Super 中返回的对象。
 
 ```js
 function Super(age) {
