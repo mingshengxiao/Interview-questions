@@ -73,3 +73,4 @@
 - 手写题
   - [instanceof](手写题/instanceof.md)
   - [JSON.stringify](手写题/json.stringify.md)
+  - [节流、防抖方法](手写题/节流、防抖方法.md)
