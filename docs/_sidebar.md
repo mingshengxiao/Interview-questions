@@ -23,6 +23,7 @@
   - [原型链](JavaScript/原型.md)
   - [js 判断数组的几种方式](JavaScript/js判断数组的几种方式.md)
   - [数组拍平](JavaScript/数组拍平.md)
+  - [var/let/const 的区别](JavaScript/var、let和const的区别.md)
 - TypeScript
   - [type 和 interface 的区别](TypeScript/type和interface的区别.md)
   - [工具类型收藏集](TypeScript/工具类型收藏.md)
